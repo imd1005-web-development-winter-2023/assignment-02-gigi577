@@ -89,7 +89,7 @@ button[type="submit"] {
 .landing-hero{
 background-image: url('mainpage.jpg');
 background-size: cover;
-height: 130vh;
+height: 45rem;
 }
 
 .landing-hero h1{
