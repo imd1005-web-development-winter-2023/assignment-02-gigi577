@@ -18,12 +18,217 @@
 
     <!-- This is where all of our awesome CSS code goes -->
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600&display=swap" rel="stylesheet">
   </head>
   <body>
-    <!--
+    <header>
+      <div class="header">
+        <div class="header--banner">
+          <img 
+          class ="header--banner--img" 
+          src="logo.png" 
+          alt="LOGO">
+          <form action="/search" method="get">
+            <!-- <label for="search"></label> -->
+            <div>
+              <input type="text" id="search" name="q" placeholder="Search...">
+            </div>
+          </form>
+          <button class="search-button">search</button>
+          <nav class="header--banner--nav">
+           <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">MENU</a></li>
+            <li><a href="#">BLOG</a></li>
+            <li><a href="#">CONTACT</a></li>
+              <div class="icon">
+                <li><a href="#"><img src="language.png" alt="language icon"></a></li>
+               </div>
+           </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    
+    <main>
+      <section>
+        <div class="landing-hero">
+          <h1>BEIJING LEGEND</h1>
+          <P>CANTONESE&SZECHUAN</P>
+          <p>TRADITIONAL CHINESE FOOD</p>
+          <p>NO MSG ADDING</p>
+          <p class="bottomtext">RESPECT THE TASTE OF THE INGREDIENTS THEMSELVES</p>
 
-      YOU HAVE TO MODIFY THE HTML TO BUILD YOUR AWESOME PAGE
+          <div calss="order">
+            <button class="hero-order-button">ORDER ONLINE</button>
+        </div>
+          <div class="booking">
+            <button class="hero-booking-button">BOOK A RESERVATION</button>
+          </div>
+            <div class="joining">
+              <button class="hero-joining-button">JOIN US</button>
+            </div>
+        </div>
+      </section>
+      
+      <section>
+        <div class="recommandations">
+          <div class="container">
+          <h2>OUR RECOMMANDATIONS</h2>
 
-    -->
+
+          <ul class="food--posts">
+            <li>
+              <img src="food1.jpg" alt="food1 img" />
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Maxime, ipsa.
+              </p>
+            </li>
+            <li>
+              <img src="food2.jpg" alt="food2 img" />
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Maxime, ipsa.
+              </p>
+            </li>
+            <li>
+              <img src="noodles.jpg" alt="noodles img" />
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Maxime, ipsa.
+              </p>
+            </li>
+            <li>
+              <img src="food3.jpg" alt="food3 img" />
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Maxime, ipsa.
+              </p>
+            </li>
+            <li>
+              <img src="food4.jpg" alt="food4 img" />
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Maxime, ipsa.
+              </p>
+            </li>
+          </ul>
+          </div>
+        </div>
+      </section>
+
+
+      <section>
+        <div class="aboutus">
+          <div class="container">
+          <h2>ABOUT US</h2>
+          <ul class="people--posts">
+            <li>
+              <img src="p1.jpg" alt="p1 img" />
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Maxime, ipsa.
+              </p>
+            </li>
+            <li>
+              <img src="p2.jpg" alt="p2 img" />
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Maxime, ipsa.
+              </p>
+            </li>
+            <li>
+              <img src="p3.jpg" alt="p3 img" />
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Maxime, ipsa.
+              </p>
+            </li>
+          </ul>
+          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata 
+          </p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="location">
+          <h2>OUR LOCATION</h2>
+          <div class="info-container" style="padding: 2% 30% 0 30%; height: auto;">
+            <div class="info-group">
+              <div class='info-icon'>
+                <img src="map.png" alt="phone icon">
+              </div>
+              <div class='info-detail'>
+                <p>Address: 123 awesome road, ottawa, ON K2J 4B5</p>
+              </div>
+            </div>
+
+            <div class="info-group">
+              <div class='info-icon'>
+                <img src="phone.png" alt="phone icon">
+              </div>
+              <div class='info-detail'>
+                <p>Phone: 763-123-899</p>
+              </div>
+            </div>
+
+            <div class="info-group">
+              <div class='info-icon'>
+                <img src="clock.png" alt="clock icon"> 
+              </div>
+              <div class='info-detail'>
+                <p>Monday: closed</p>
+                <p>Tuesday: 11a.m - 9p.m</p>
+                <p>Wednesday: closed</p>
+                <p>Thursday: 11a.m - 9p.m</p>
+                <p>Friday: 11a.m - 9p.m</p>
+                <p>Saturday: 11a.m - 9p.m</p>
+                <p>Sunday: 11a.m - 9p.m</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="form" style="padding:3%">
+          <form class="contact-from">
+            <h2 style="margin-bottom: 20px">Your opinion matters, tell us what can we do better!</h2>
+            <label for="yname" class="form-label">First Name</label>
+            <input type="text" id="yname" name="yname"><br><br>
+            <label for="yname" class="form-label">Last Name</label>
+            <input type="text" id="lname" name="lname"><br><br>
+            <label for="yname" class="form-label">E-mail</label>
+            <input type="text" id="email" name="email"><br><br>
+            <label for="yname" class="form-label">Message</label>
+            <textarea name="message" id="msg" cols="30" rows="5"></textarea><br><br>
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-left">
+          <ul>
+          <li class="about"><a class="about-link" href="#">ABOUT US</a></li>
+          <li class="contact"><a class="contact-link" href="#">CONTACT US</a></li>
+          <li class="JOIN"><a class="join-link" href="#">JOIN US</a></li>
+          </ul>
+      </div>
+
+        <div class="footer-right">
+          <a href="index.html"><img id ="logo" src="logo.png" alt="LOGO"></a>
+         <p>&copy; 2023 BEIJING LEGEND. All rights reserved</p>
+         <a href="#">privacy Policy</a>
+          <a href="#">Terms of Service</a>
+         </div>
+    </footer>
   </body>
 </html>
